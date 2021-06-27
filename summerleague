@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<!-- Meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+			name="viewport"
+		/>
+		<meta
+			content="Our mission is to increase student engagement in esports and STEAM and open pathways for highschool students going into the esports industry."
+			name="description"
+		/>
+
+		<!-- Open Graph Meta Tags for Discord Embed -->
+		<meta content="en_US" property="og:locale" />
+		<meta content="website" property="og:type" />
+		<meta content="Ontario High School Esports Association" property="og:site_name" />
+		<meta content="OHSEA | Links" property="og:title" />
+		<meta
+			content="Our mission is to increase student engagement in esports and STEAM and open pathways for highschool students going into the esports industry."
+			property="og:description"
+		/>
+		<meta
+			content="https://links.ohsea.gg/OHSEA%20Logo.png"
+			property="og:image"
+		/>
+		<meta content="https://links.ohsea.gg" property="og:url" />
+
+		<!-- Plausible Analytics -->
+		<script async defer data-domain="links.ohsea.gg" src="https://plausible.io/js/plausible.js"></script>
+
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+		<link rel="manifest" href="favicons/site.webmanifest">
+		<link rel="shortcut icon" href="favicons/favicon.ico">
+		<meta name="apple-mobile-web-app-title" content="OHSEA">
+		<meta name="application-name" content="OHSEA">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="msapplication-config" content="favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+
+		<!-- Title of Page -->
+		<title>OHSEA Links</title>
+
+		<!-- CSS Sheet -->
+		<link rel="stylesheet" href="main.css" />
+	</head>
+
+	<body>
+		<img
+			loading="lazy"
+			id="userPhoto"
+			src="OHSEA%20Logo.png"
+			alt="User Photo"
+		/>
+
+		<a
+			href="https://www.instagram.com/ohseagg"
+			id="userName"
+			target="_blank"
+			>@ohseagg</a
+		>
+		<div id="links">
+			<a class="link" href="https://links.ohsea.gg/summerleague-mc" target="_blank"
+			>$1000 USD Minecraft League</a
+			>
+			<a class="link" href="https://links.ohsea.gg/summerleague-val-plat-" target="_blank"
+				>$1000 USD VALORANT Plat 2+ League</a
+			>
+			<a class="link" href="https://links.ohsea.gg/summerleague-val-plat+" target="_blank"
+				>$500 USD VALORANT Plat 1- League</a
+			>
+			<a class="link" href="https://links.ohsea.gg/summerleague-rl" target="_blank"
+				>$1000 USD Rocket League League</a
+			>
+			<a class="link" href="https://links.ohsea.gg/" target="_blank"
+			>Back to all links</a
+			>
+		</div>
+
+		<div class="footer">&copy; 2021 Ontario High School Esports Association</div>
+
+		<!-- Javascript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>
